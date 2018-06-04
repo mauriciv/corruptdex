@@ -1,0 +1,23 @@
+Flaaffy is a pink, bipedal, sheep-like Pokémon.
+It has thick, conical ears with black stripes on the sides of its head and small, blue eyes.
+A white mane of wool covers its head and upper body.
+This mane forms sideways curls on the top of its head.
+It has stubby arms and one nail on each foot.
+Flaaffy's long tail has black stripes and is tipped with a blue orb.
+
+Storing too much electricity caused Flaaffy to lose the wool over most of its body, but the bare, rubbery skin protects it from the electricity stored in its fleece.
+The quality of Flaaffy's fleece can change to generate more electricity with less wool.
+The orb will light up when Flaaffy's mane is fully charged, and it can attack by firing electrified hairs at opponents.
+Flaaffy typically inhabits grassy meadows and fields.
+
+Its fluffy fleece easily stores electricity.
+Its rubbery hide keeps it from being electrocuted.
+If its coat becomes fully charged with electricity, its tail lights up.
+It fires hair that zaps on impact.
+Flaaffy's wool quality changes so that it can generate a high amount of static electricity with a small amount of wool.
+The bare and slick parts of its hide are shielded against electricity.
+
+In the places on its body where fleece doesn't grow, its skin is rubbery and doesn't conduct electricity.
+Those spots are safe to touch.
+It stores electricity in its fluffy fleece.
+If it stores up too much, it will start to go bald in those patches.
