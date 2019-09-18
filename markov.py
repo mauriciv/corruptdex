@@ -25,26 +25,24 @@ def main():
     tweeted = False
     failure = 0
     while tweeted is False:
+        full_tweet = ""
         pokemon_tweet = text_model.make_sentence_with_start(pokemon)
-        if len(pokemon_tweet) < 140:
-            print(pokemon_tweet)
+        if len(pokemon_tweet) < 280:
+            full_tweet = full_tweet + pokemon_tweet
             tweeted = True
-            it_tweet = text_model.make_sentence_with_start('It')
-            if len(it_tweet) < 140:
-                print(' ' + it_tweet)
+            more_text = text_model.make_sentence()
+            # more_text = text_model.make_sentence_with_start(random.choice(['If', 'It', 'Its', 'It's', 'By', 'When', 'On', 'Once', 'There', 'The', 'They', 'This', 'A', 'An', 'As', 'At', 'For', 'Despite', 'Due']))
+            if len(full_tweet + more_text) <= 280:
+                full_tweet = full_tweet + ' ' + more_text
+            even_more_text = text_model.make_sentence()
+            if len(full_tweet + even_more_text) <= 280:
+                full_tweet = full_tweet + ' ' + even_more_text
+            print(full_tweet)
 
-            its_tweet = text_model.make_sentence_with_start('Its')
-            if len(its_tweet) < 140:
-                print('  ' + its_tweet)
-
-            last_tweet = text_model.make_sentence_with_start('This')
-            if len(last_tweet) < 140:
-                print('   ' + last_tweet)
-
-            print('    ' + text_model.make_short_sentence(140))
         else:
             failure += 1
             print("Failure number: " + str(failure))
+
 
 
 if __name__ == "__main__":
