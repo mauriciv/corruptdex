@@ -4,7 +4,7 @@ idna==2.8
 markovify==0.7.2
 oauthlib==2.0.6
 requests==2.20.0
-requests-oauthlib==0.8.0
+requests-oauthlib==1.2.0
 six==1.12.0
 tweepy==3.8.0
 Unidecode==0.4.21
