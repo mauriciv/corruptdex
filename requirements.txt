@@ -3,7 +3,7 @@ chardet==3.0.4
 idna==2.8
 markovify==0.7.2
 oauthlib==2.0.6
-requests==2.23.0
+requests==2.24.0
 requests-oauthlib==0.8.0
 six==1.13.0
 tweepy==3.8.0
