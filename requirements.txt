@@ -1,5 +1,5 @@
 certifi==2019.9.11
-chardet==3.0.4
+chardet==4.0.0
 idna==2.8
 markovify==0.7.2
 oauthlib==2.0.6
